@@ -1,10 +1,11 @@
+using UnityEditor.ShaderGraph;
 using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour
 {
     #region Variáveis de Movimento
-    public float moveSpeed = 5f; // Velocidade de movimento
-    private Rigidbody2D rigidBody; // Referência ao Rigidbody2D
+    public float moveSpeed = 5f; //Variável pública que define a velocidade de movimento do personagem.
+    private Rigidbody2D rigidBody; // Declara uma variável privada do tipo RigidBody2D, que controla a física do personagem.
     #endregion
 
     #region Variáveis de Pulo
